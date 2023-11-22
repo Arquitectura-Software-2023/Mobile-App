@@ -37,7 +37,7 @@ class _RestaurantPageState extends State<RestaurantPage> {
     });
   }
 
-
+<
   Future<List<Review>> _getReviewsByFoodStoreId(int foodstoreId) async {
     final reviews = await _reviewsFuture;
     if (reviews != null) {
@@ -289,12 +289,13 @@ class _RestaurantPageState extends State<RestaurantPage> {
                                         IconButton(
                                           icon: Icon(Icons.add),
                                           onPressed: () {
+                                            _incrementPromotionQuantity(promotion);
                                             ScaffoldMessenger.of(context).showSnackBar(
                                               SnackBar(
                                                 content: Text('Cantidad aumentada'),
                                               ),
                                             );
-                                            _incrementPromotionQuantity(promotion);
+
                                           },
                                         ),
                                         IconButton(
