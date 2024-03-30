@@ -37,7 +37,7 @@ class _RestaurantPageState extends State<RestaurantPage> {
     });
   }
 
-<
+
   Future<List<Review>> _getReviewsByFoodStoreId(int foodstoreId) async {
     final reviews = await _reviewsFuture;
     if (reviews != null) {

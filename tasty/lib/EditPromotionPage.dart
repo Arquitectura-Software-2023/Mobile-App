@@ -183,7 +183,7 @@ class _EditPromotionPageState extends State<EditPromotionPage> {
                         onPressed: _editPromotion,
                         child: Text('Edit Promotion'),
                         style: ElevatedButton.styleFrom(
-                          primary: Color(0xFFFDFBEF),
+                          backgroundColor: Color(0xFFFDFBEF),
                         ),
                       ),
                     ],

@@ -194,7 +194,7 @@ class _CreatePromotionPageState extends State<CreatePromotionPage> {
                         },
                         child: Text('Create Promotion'),
                         style: ElevatedButton.styleFrom(
-                          primary: Color(0xFFFDFBEF),
+                          backgroundColor: Color(0xFFFDFBEF),
                         ),
                       ),
                     ],
